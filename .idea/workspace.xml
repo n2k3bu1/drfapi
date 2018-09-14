@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="939b1b12-1250-417f-87ba-2e5f36b3bcd7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/drfapi.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/migrations/0002_account_is_staff.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/migrations/0003_auto_20180914_0943.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/migrations/0004_auto_20180914_0944.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/permissions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/drfapi/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/drfapi/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/drfapi/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/drfapi/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/permissions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/posts/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/angular/angular-cookies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/angular/angular-cookies.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/angular/angular-cookies.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/angular/angular-route.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/angular/angular-route.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/angular/angular-sanitize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/angular/angular-sanitize.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/angular/angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/.ruby-gemset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/.ruby-version" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/.versions" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/css/bootstrap-material-design.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/css/bootstrap-material-design.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/css/bootstrap-material-design.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/css/bootstrap-material-design.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/css/material.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/css/ripples.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/css/ripples.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/css/ripples.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/css/ripples.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/js/material.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/js/material.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/js/material.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/js/ripples.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/js/ripples.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-material-design/js/ripples.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/MainAppModule.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/MainAppRouter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/MainModule.config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/authentication/authentication.module.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/authentication/controllers/login.controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/authentication/controllers/register.controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/layout/controllers/index.controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/layout/controllers/navbar.controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/layout/layout.module.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/posts/controllers/new-post.controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/posts/controllers/posts.controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/posts/directives/post.directive.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/posts/directives/posts.directive.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/posts/posts.module.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/posts/services/posts.service.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/profiles/controllers/profile-settings.controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/profiles/controllers/profile.controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/profiles/profiles.module.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/profiles/services/profile.service.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/utils/services/snackbar.service.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/utils/utils.module.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery/jQuery the Uncompressed file 2.1.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery/jQuery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery/jquery.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/css/ngDialog-custom-width.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/css/ngDialog-theme-default.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/css/ngDialog-theme-default.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/css/ngDialog-theme-plain.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/css/ngDialog-theme-plain.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/css/ngDialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/css/ngDialog.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/js/ngDialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ngDialog/js/ngDialog.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/snackbarjs/snackbar.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/snackbarjs/snackbar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/stylesheets/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/templates/authentication/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/templates/authentication/register.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/templates/layout/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/templates/posts/new-post.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/templates/posts/post.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/templates/posts/posts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/templates/profiles/profile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/templates/profiles/settings.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/underscore.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/authentication/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/javascripts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/navbar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/stylesheets.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authentication/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authentication/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/account/models.py" />
+        <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/auth/apps.py" />
+        <option value="$PROJECT_DIR$/authentication/apps.py" />
+        <option value="$PROJECT_DIR$/authentication/permissions.py" />
+        <option value="$PROJECT_DIR$/authentication/serializers.py" />
+        <option value="$PROJECT_DIR$/post/views.py" />
+        <option value="$PROJECT_DIR$/post/serializers.py" />
+        <option value="$PROJECT_DIR$/post/models.py" />
+        <option value="$PROJECT_DIR$/posts/views.py" />
+        <option value="$PROJECT_DIR$/posts/permissions.py" />
+        <option value="$PROJECT_DIR$/posts/models.py" />
+        <option value="$PROJECT_DIR$/authentication/views.py" />
+        <option value="$PROJECT_DIR$/templates/authentication/index.html" />
+        <option value="$PROJECT_DIR$/drfapi/settings.py" />
+        <option value="$PROJECT_DIR$/drfapi/urls.py" />
+        <option value="$PROJECT_DIR$/authentication/models.py" />
+        <option value="$PROJECT_DIR$/authentication/forms.py" />
+        <option value="$PROJECT_DIR$/authentication/admin.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2282" />
+    <option name="y" value="-4" />
+    <option name="width" value="935" />
+    <option name="height" value="1049" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="drfapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drfapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drfapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drfapi" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drfapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drfapi" type="462c0819:PsiDirectoryNode" />
+              <item name="drfapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drfapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drfapi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drfapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drfapi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/templates/authentication" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="939b1b12-1250-417f-87ba-2e5f36b3bcd7" name="Default" comment="" />
+      <created>1536906555503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536906555503</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="-4" width="1920" height="1049" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/account/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/env35-drf/lib/python3.5/site-packages/django/contrib/admin/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/env35-drf/lib/python3.5/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="781" column="31" lean-forward="false" selection-start-line="781" selection-start-column="31" selection-end-line="781" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stylesheets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27411">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/javascripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/env35-drf/lib/python3.5/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/authentication/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drfapi/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#222#231#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authentication/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drfapi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="e#630#671#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/env35-drf/lib/python3.5/site-packages/django/contrib/auth/base_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drfapi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
